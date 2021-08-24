@@ -1,0 +1,14 @@
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\bin\Debug\netstandard2.0\TodaysTask.deps.json
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\bin\Debug\netstandard2.0\TodaysTask.dll
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\bin\Debug\netstandard2.0\ref\TodaysTask.dll
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\bin\Debug\netstandard2.0\TodaysTask.pdb
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\TodaysTask.csproj.AssemblyReference.cache
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\TodaysTask.AssemblyInfoInputs.cache
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\TodaysTask.AssemblyInfo.cs
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\TodaysTask.csproj.CoreCompileInputs.cache
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\TodaysTask.dll
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\ref\TodaysTask.dll
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\TodaysTask.pdb
