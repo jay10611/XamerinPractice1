@@ -12,3 +12,5 @@ C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstan
 C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\TodaysTask.dll
 C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\ref\TodaysTask.dll
 C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\TodaysTask.pdb
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\WeatherPage.xaml.g.cs
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask\obj\Debug\netstandard2.0\TestAsync.xaml.g.cs

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TodaysTask.ViewModels"
+             x:Class="TodaysTask.WeatherPage">
+    <ContentPage.BindingContext>
+        <local:WeatherPageViewModel/>
+    </ContentPage.BindingContext>
+    <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height ="100"/>
+                <RowDefinition Height ="50"/>
+                <RowDefinition Height ="50"/>
+                <RowDefinition Height ="*"/>
+            </Grid.RowDefinitions>
+
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+        <Editor Grid.Column="0"  Grid.ColumnSpan="3" Grid.Row="1" Placeholder="Enter a City" Text="{Binding SearchCity}"/>
+        <Button Grid.Row="2" Grid.Column="1" Text="Search" Command="{Binding SearchWeatherApiCommand}" />
+        <ListView  x:Name="WeatherListView" Grid.Row="3" Grid.ColumnSpan="3">
+            <ListView.ItemTemplate>
+                    <DataTemplate>
+                    <ViewCell >
+                        <StackLayout>
+                            <Label Text="{Binding title}" TextColor="Black" ></Label>
+                            <Label Text="{Binding currentTemp}" TextColor="Black" ></Label>
+                            <Label Text="{Binding humidity}" TextColor="Black" ></Label>
+                        </StackLayout>
+                    </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+</ContentPage>

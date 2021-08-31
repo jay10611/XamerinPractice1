@@ -31,7 +31,23 @@ namespace TodaysTask.ViewModels
                 AddItemWorkerThread();
             }
             );
-        
+
+
+            ToWeatherPageCommand = new Command(async () =>
+            {
+                var weatherPageVM = new WeatherPageViewModel();
+                var weatherPage = new WeatherPage();
+                weatherPage.BindingContext = weatherPageVM;
+                await Application.Current.MainPage.Navigation.PushAsync(weatherPage);
+            });
+
+            ToTestAsyncPageCommand = new Command(async () =>
+            {
+                var TestAsyncVM = new TestAsyncViewModel();
+                var TestAsync = new TestAsync();
+                TestAsync.BindingContext = TestAsyncVM;
+                await Application.Current.MainPage.Navigation.PushAsync(TestAsync);
+            });
         }
 
         public ObservableCollection<string> AllItems { get; set; }
@@ -39,7 +55,6 @@ namespace TodaysTask.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
 
         string theItem;
-
         public string TheItem
         {
             get => theItem;
@@ -52,14 +67,14 @@ namespace TodaysTask.ViewModels
                 PropertyChanged?.Invoke(this, args);
             }
         }
-        
+
         public void AddItemWorkerThread()
         {
             bool shouldRun = true;
             var i = 0;
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
-               
+
                 theItem = "hi"+i;
                 AllItems.Add(TheItem);
                 i++;
@@ -71,5 +86,8 @@ namespace TodaysTask.ViewModels
         public Command SaveCommand { get; }
         public Command DeleteCommand { get; }
         public Command StartWorkerCommand { get; }
+        public Command ToWeatherPageCommand { get; }
+        public Command ToTestAsyncPageCommand { get; }
+
     }
 }

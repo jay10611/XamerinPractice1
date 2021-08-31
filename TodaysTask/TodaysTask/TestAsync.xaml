@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:TodaysTask.ViewModels"
+             x:Class="TodaysTask.TestAsync">
+    <ContentPage.BindingContext>
+        <local:TestAsyncViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="50"/>
+            <RowDefinition Height ="75"/>
+            <RowDefinition Height ="60"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="1" Grid.Column="0" Text="Test Sync X3" Command="{Binding TestSynchronousCommand}"/>
+        <Button Grid.Row="1" Grid.Column="1" Text="Test Async X3" Command="{Binding TestAsynchronousCommand}" />
+        <Button Grid.Row="1" Grid.Column="2" Text="Test Async await" Command="{Binding StartWorkerCommand}"/>
+        <Button Grid.Row="1" Grid.Column="3" Text="Test Async -await" Command="{Binding ToWeatherPageCommand}"/>
+        <CollectionView ItemsSource="{Binding TestData}" Grid.Row="3">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame>
+                            <Label Text="{Binding .}"/>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

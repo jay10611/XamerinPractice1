@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jPxwsOyuVb9XngEuCVzLa04scyu+yTVes0Ymm3LbcqnQul3NGyMnYBQ6SZHxDLrOpWuY3GP+E+tOmPlrXKaN9A==",
+  "dgSpecHash": "CU+gKCi1yw0SuAbYtLT8/y7FyJ0oZDqujiwW8AC7bUQyPVGXdyVzaY2iUE9i5OMqS59i0UjfHXquqcNBO/lu3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\jwalser\\source\\repos\\TodaysTask\\TodaysTask\\TodaysTask.iOS\\TodaysTask.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jwalser\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\jwalser\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"

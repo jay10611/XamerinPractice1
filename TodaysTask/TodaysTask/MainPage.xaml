@@ -10,10 +10,9 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height ="100"/>
-            <RowDefinition Height ="50"/>
-            <RowDefinition Height ="50"/>
-            <RowDefinition Height ="*"/>
+            <RowDefinition Height ="60"/>
+            <RowDefinition Height ="60"/>
+            <RowDefinition Height ="60"/>
         </Grid.RowDefinitions>
 
 
@@ -21,14 +20,14 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
    
-        <Editor Grid.Column="0"  Grid.ColumnSpan="3" Grid.Row="1" Placeholder="item name" Text="{Binding TheItem}"/>
-
-
-        <Button Grid.Row="2" Grid.Column="0" Text="add item name" Command="{Binding SaveCommand}"/>
-        <Button Grid.Row="2" Grid.Column="1" Text="Delete" Command="{Binding DeleteCommand}" />
-        <Button Grid.Row="2" Grid.Column="2" Text="Start Worker" Command="{Binding StartWorkerCommand}"/>
+        <Button Grid.Row="0" Grid.Column="0" Text="add item name" Command="{Binding SaveCommand}"/>
+        <Button Grid.Row="0" Grid.Column="1" Text="Delete" Command="{Binding DeleteCommand}" />
+        <Button Grid.Row="0" Grid.Column="2" Text="Start Worker" Command="{Binding StartWorkerCommand}"/>
+        <Button Grid.Row="1" Grid.Column="0" Text="Weather Page" Command="{Binding ToWeatherPageCommand}"/>
+        <Button Grid.Row="1" Grid.Column="1" Text="Test Async" Command="{Binding ToTestAsyncPageCommand}"/>
         <CollectionView ItemsSource="{Binding AllItems}" Grid.Row="3">
             <CollectionView.ItemTemplate>
                 <DataTemplate>

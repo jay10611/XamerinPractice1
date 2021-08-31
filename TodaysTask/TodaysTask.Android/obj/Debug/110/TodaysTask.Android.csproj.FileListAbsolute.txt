@@ -574,3 +574,9 @@ C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask.Android\obj\Debug
 C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask.Android\obj\Debug\110\android\assets\Json.Net.dll
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask.Android\obj\Debug\110\android\assets\System.Net.Http.Extensions.dll
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask.Android\obj\Debug\110\android\assets\System.Net.Http.Primitives.dll
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask.Android\obj\Debug\110\android\assets\System.Net.Primitives.dll
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask.Android\obj\Debug\110\android\assets\System.Runtime.InteropServices.dll
+C:\Users\jwalser\source\repos\TodaysTask\TodaysTask\TodaysTask.Android\obj\Debug\110\android\assets\Newtonsoft.Json.dll
